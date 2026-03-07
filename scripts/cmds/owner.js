@@ -15,9 +15,9 @@ guide: "{p}owner"
 },
 
 // --- [ 🔐 INTERNAL DATA BLOCK ] ---
-// 🤖 Bot: MILON BOT | 👤 Owner: MILON HASAN
-// 🔗 FB: https://www.facebook.com/share/17uGq8qVZ9/
-// 📞 WA: +880 1912603270 | 📍 Loc: NARAYANGANJ
+// 🤖 Bot: 𝐅𝐚𝐫𝐡𝐚𝐧 BOT | 👤 Owner: 𝐅𝐚𝐫𝐡𝐚𝐧 ISLAM
+// 🔗 FB: https://www.facebook.com/profile.php?id=61584634047898
+// 📞 WA: +8801752-104187 | 📍 Loc: Jamalpur. Shorishabari
 // ----------------------------------
 
 onStart: async function ({ api, event, threadsData }) {
@@ -113,15 +113,15 @@ ctx.textAlign = "left";
 ctx.font = `bold ${16 * scale}px Arial`; 
 
 // Card Content
-ctx.fillText(`🤖 Bot Name: [ MILON BOT ]`, infoX, nameY + (25 * scale)); 
+ctx.fillText(`🤖 Bot Name: [ 𝐅𝐚𝐫𝐡𝐚𝐧 BOT ]`, infoX, nameY + (25 * scale)); 
 ctx.fillText(`⚙️ Prefix: [ ${threadPrefix} ]`, infoX, nameY + (45 * scale)); 
 ctx.fillText(`⏳ Uptime: [ ${uptimeString} ]`, infoX, nameY + (65 * scale)); 
 ctx.fillText(`📊 Commands: [ ${totalCommands} ]`, infoX, nameY + (85 * scale)); 
-ctx.fillText(`👤 Owner: [ Milon Hasan ]`, infoX, nameY + (115 * scale)); 
+ctx.fillText(`👤 Owner: [ 𝐅𝐚𝐫𝐡𝐚𝐧 Hasan ]`, infoX, nameY + (115 * scale)); 
 ctx.fillText(`📅 Age: [ 17+ ]`, infoX, nameY + (135 * scale)); 
-ctx.fillText(`📍 Address: [ NARAYANGANJ ]`, infoX, nameY + (155 * scale)); 
+ctx.fillText(`📍 Address: [ Jamalpur.Shorishabari ]`, infoX, nameY + (155 * scale)); 
 ctx.fillText(`📝 Status: [ silence is my attitude ]`, infoX, nameY + (175 * scale)); 
-ctx.fillText(`📞 WhatsApp: [ 880 1912603270 ]`, infoX, nameY + (195 * scale)); 
+ctx.fillText(`📞 WhatsApp: [ 880 1752-104187 ]`, infoX, nameY + (195 * scale)); 
 
 const cacheDir = path.join(__dirname, "cache");
 fs.ensureDirSync(cacheDir);
@@ -134,13 +134,13 @@ const caption =
 "╔══════════════════╗\n" +
 " ✨ 𝗕𝗢𝗧 & 𝗢𝗪𝗡𝗘𝗥 𝗜𝗡𝗙𝗢 ✨\n" +
 "╚══════════════════╝\n\n" +
-"👤 𝗢𝘄𝗻𝗲𝗿: Milon Hasan\n" +
-"🤖 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲: MILON BOT\n" +
+"👤 𝗢𝘄𝗻𝗲𝗿: 𝐅𝐚𝐫𝐡𝐚𝐧 Islam\n" +
+"🤖 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲: ⏤͟͟͞͞𝐅𝐚𝐫𝐡𝐚𝐧♡𝐁𝐛'𝐳⊰🩵🪽 BOT\n" +
 "⚙️ 𝗣𝗿𝗲𝗳𝗶𝘅: [ " + threadPrefix + " ]\n" +
 "⏳ 𝗨𝗽𝘁𝗶𝗺𝗲: " + uptimeString + "\n" +
 "📊 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀: " + totalCommands + "\n" +
-"📞 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽: +880 1912603270\n" +
-"📍 𝗔𝗱𝗱𝗿𝗲𝘀𝘀: Narayanganj, Bangladesh\n" +
+"📞 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽: +880 1752-104187\n" +
+"📍 𝗔𝗱𝗱𝗿𝗲𝘀𝘀: Jamalpur.Shorishabari, Bangladesh\n" +
 "━━━━━━━━━━━━━━━━━━━━\n" +
 "✅ 𝗣𝗿𝗲𝗺𝗶𝘂𝗺 𝗖𝗮𝗿𝗱 𝗗𝗲𝗹𝗶𝘃𝗲𝗿𝗲𝗱!\n" +
 "━━━━━━━━━━━━━━━━━━━━";
